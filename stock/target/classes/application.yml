@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: stock-servicer
+  cloud:
+    nacos:
+      discovery:
+        server-add: localhost:8848
+        username: nacos
+        password: nacos
+server:
+  port: 8003
