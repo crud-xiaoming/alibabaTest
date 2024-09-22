@@ -22,4 +22,12 @@ public class StockBean {
     public void setName(String name) {
         this.name = name;
     }
+
+    public String getTest() {
+        return test;
+    }
+
+    public void setTest(String test) {
+        this.test = test;
+    }
 }
