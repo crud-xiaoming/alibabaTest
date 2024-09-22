@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: stock-servicer
+  cloud:
+    nacos:
+      discovery:
+        server-add: localhost:8848
+        username: nacos
+        password: nacos
+        namespace: 5d02b9e4-b1fd-4944-a3fc-6df160dbdc66
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/alibaba?useSSL=false&serverTimezone=UTC
+    username: root
+    password: root
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.zx.bean
+
+server:
+  port: 8003

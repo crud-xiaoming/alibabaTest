@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: scheduler
+  cloud:
+    sentinel:
+      transport:
+        dashboard: 127.0.0.1:8080
+server:
+  port: 8002
+
